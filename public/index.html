@@ -1,0 +1,71 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+  <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+  <style>
+    a:link {
+      text-decoration: none;
+      color: black;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    body {
+    padding-top: 50px;
+  }
+  .name {
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    text-align: center;
+  }
+
+  .intro-section {
+    padding: 40px 15px;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+  }
+  .names {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  @media screen and (min-width: 510px) {
+    .name {
+      padding: 40px 15px;
+    }
+    .names {
+      flex-direction: row;
+    }
+  }
+  </style>
+</head>
+  <body>
+    <div class="container" role="main">
+      <div class="intro-section">
+        <h1 role="heading" aria-level="1">Prue Family</h1>
+      </div>
+      <div class="names">
+        <p class="name">
+          <a href="mailto:prescottprue@gmail.com" role="link" aria-label="Contact Scott">
+            Contact Scott
+          </a>
+        </p>
+        <p class="name">
+          <a href="mailto:shelbymorganbell@gmail.com" role="link" aria-label="Contact Shelby">
+            Contact Shelby
+          </a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
